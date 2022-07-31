@@ -1,0 +1,89 @@
+body {
+    background: linear-gradient(-45deg, #0c75df, #174581, #23a0d5, #174581);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: 300px 1fr;
+    gap: 1rem;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    font: 500 100%/1.5 system-ui;
+  }
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+  
+  @keyframes drift {
+    from {
+      transform: rotate(0deg);
+    }
+    from {
+      transform: rotate(360deg);
+    }
+  }
+/*background customise ends*/
+footer{
+    width: 1000px;
+    height: 100px;
+}
+h1 {
+    font-family: "Audiowide", Arial, sans-serif;
+    
+  }
+  h2 {
+    font-family: "Teko", Arial, sans-serif;
+    font-size: 40px;
+  }
+  
+  h4 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .border {
+    border-left-color: rgb(50, 109, 179);
+    border-left-style: solid;
+    height: 100px;
+  }
+  
+  .mainlogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+  }
+
+
+  .game {
+    max-width: 90%;
+    height: auto;
+    border:5px solid #000000;
+    border-radius: 25px;
+  }
+
+  @media (max-width: 650px) {
+    body {
+      display: block;
+      font-size: 80%;
+    }
+    p {
+      position: relative;
+      margin: -3rem 0 2rem 1rem;
+      padding: 1rem;
+      background: rgba(white, 0.8);
+    }
+  }
+  
+  
